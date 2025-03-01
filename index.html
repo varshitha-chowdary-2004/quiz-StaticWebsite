@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <title>Quiz</title>
+    <style>
+        .quiz-bg-container{
+            background-color: #875fc0;
+            padding: 24px;
+        }
+        .question-card{
+            background-color: white;
+            border-radius: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .score{
+            text-align: right;
+            font-size: large;
+            font-family: Roboto;
+            color:white;
+        }
+        .heading{
+            font-family: Roboto;
+            font-weight: bold;
+            color: black;
+        }
+        .para{
+            font-family: Roboto;
+            font-weight: lighter;
+            color: black;
+        }
+        .ans-card{
+            background-color: white;
+            padding: 30px;
+            border-radius: 20px;
+        }
+        .option-card{
+            background-color: white;
+            border: solid black 1px;
+            border-radius: 10px;
+            padding:10px;
+            margin-bottom: 10px;
+        }
+        .ans{
+            background-color: #875fc0;
+            border: solid black 1px;
+            border-radius: 10px;
+            padding:10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-bg-container">
+        <p class="score"> Score:25/40</p>
+        <div class="question-card">
+            <h1 class="heading">Question 10</h1>
+            <p class="para">Which of the following in the content of the HTML paragraph element?</p>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/coding-question-img.png"/>
+        </div>
+        <div class="ans-card">
+            <div class="option-card">
+                <p>A.HTML heading element</p>
+            </div>
+            <div class="option-card">
+                <p>B.HTML paragraph element</p>
+            </div>
+            <div class="ans">
+                <p>C.This is paragraph</p>
+            </div>
+            <div class="option-card">
+                <p>D.None of the above</p>
+            </div>
+            <center><button class="btn btn-warning">Submit</button></center>
+        </div>
+    </div>
+</body>
+</html>
